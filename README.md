@@ -1,1 +1,1 @@
-## AB Testing Algothrims Practice
+## AB Testing Algothrim Practice
