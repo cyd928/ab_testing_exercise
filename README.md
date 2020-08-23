@@ -6,4 +6,6 @@ Contents include:
 - T-test
 - Chi-square test
 - Epsilon-greedy test (Bandit testing)
+- UCB
+- Thompson sampling
 
