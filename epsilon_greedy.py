@@ -1,8 +1,14 @@
+# Simulation of epsilon-greedy theory to see how the algo helps choose the bandit with the highest win rate
+
 import matplotlib.pyplot as plt
 import numpy as np
 
 NUM_OF_TRAILS = 1000
-EPS = 0.1  # epsilon
+EPS = 0.1  # epsilon: explored/(explored+exploited) ratio
+# tradeoff:
+# low eps: quicker to achieve the results
+# high eps: higher accuracy
+
 bandit_prob = [0.2, 0.5, 0.75]# win rate for each bandit
 
 # bandit class
